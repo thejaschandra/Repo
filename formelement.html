@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name"><br><br>
+
+      <textarea placeholder="Your suggestions" rows="8" cols="40"></textarea><br><br>
+
+      <label for="passwd">Password</label>
+      <input type="password" name="passwd" ><br><br>
+
+       <label for="search">Search Here</label>
+      <input type="search" name="search" placeholder="Enter text to search"><br><br>
+
+      <label for="email">Email</label>
+      <input type="email" name="email"><br><br>
+      <input type="submit"><br><br>
+
+      <label for="url">URL</label>
+      <input type="url" name="url"><br><br>
+      <input type="submit"><br><br>
+
+      <label for="tel">Telephone</label>
+      <input type="tel" name="tel"><br><br>
+      <input type="submit"><br><br>
+
+      <label for="usn">VTU USN</label>
+      <input type="text" name="usn" placeholder="Enter USN here"  pattern="[1-4][a-zA-Z][a-zA-Z][0-9][0-9][a-zA-Z][a-zA-Z][0-9][0-9][0-9]">
+      <input type="submit"><br><br>
+
+      <label for="city">Your City</label>
+      <input type="text" name="city" list="cities">
+      <datalist id="cities">
+        <option >Bengaluru</option>
+        <option >Mysuru</option>
+        <option >Mangaluru</option>
+        <option >Chickballapura</option>
+      </datalist>
+
+    </form>
+  </body>
+</html>

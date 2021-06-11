@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function eventFunction() {
+  var x = document.getElementById("name");
+  x.value = x.value.toUpperCase();
+}
+</script>
+</head>
+<body>
+
+<p>A Event is triggered when the user releases a key in the input field. The function transforms the character to upper case.</p>
+Enter your name: <input type="text" id="name" onkeyup="eventFunction()">
+
+</body>
+</html>

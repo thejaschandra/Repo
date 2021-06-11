@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function eventFunction() {
+  name = document.forms[0].name.value;
+  alert("Hello " + name + "! You will now be redirected to www.sjcit.ac.in");
+}
+</script>
+</head>
+<body>
+
+<form onsubmit="eventFunction()" action="http://www.sjcit.ac.in">
+  Enter your name: <input id="name" type="text" size="20">
+  <input type="submit">
+</form>
+
+</body>
+</html>
